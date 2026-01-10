@@ -1,0 +1,73 @@
+.banner {
+  height: calc(100vh - 100px);
+  background-image: url("/Images/HomePageIMG/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+.banner h1 {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 72px;
+  line-height: 110.00000000000001%;
+  letter-spacing: 0%;
+  color: #ffffff;
+  width: 60%;
+  margin-top: 120px;
+  margin-left: 50px;
+}
+.banner .link {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: #ffffff;
+  padding: 16px 32px;
+  margin-left: 50px;
+  background-color: #339933;
+  transition: all 0.3s ease;
+}
+.banner .link:hover {
+  background-color: #287328;
+  cursor: pointer;
+  
+}
+
+@media (max-width:1100px) {
+    .banner h1 {
+        font-size: 48px;
+        width: 80%;
+        margin-top: 100px;
+    }
+    
+} 
+@media (max-width:600px) {
+    .banner h1 {
+        font-size: 32px;
+        width: 85%;
+        margin-top: 80px;
+        text-align: center;
+    }
+    .banner .link {
+        font-size: 16px;
+        padding: 12px 24px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (max-width:500px) {
+    .banner h1{
+        width: 100%;
+        margin: 50 auto;
+    }
+    
+}

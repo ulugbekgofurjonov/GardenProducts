@@ -21,7 +21,7 @@ export default function Header() {
       <Link href="/">
         <img 
           className='img' 
-          src="./Images/HomePage Images/logo.png" 
+          src="./Images/HomePageIMG/logo.png" 
           alt="Logo" 
         />
       </Link>
@@ -41,7 +41,7 @@ export default function Header() {
         {/* Cart Icon */}
         <Link href="/cart">
           <img 
-            src="./Images/HomePage Images/savat.svg" 
+            src="./Images/HomePageIMG/savat.svg" 
             alt="Cart"
             className="cart-icon"
           />

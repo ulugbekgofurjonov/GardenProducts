@@ -30,6 +30,10 @@
   border: 1px solid #dddddd;
   padding: 8px 15px;
 }
+.categories .top .link:hover {
+  background-color: #f0f0f0;
+  transition: background-color 0.3s ease;
+}
 .categories .wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -37,7 +41,6 @@
 }
 .categories .wrapper .box {
   margin: 10px;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
   width: 20%;
   border-radius: 10px;
   transition: transform 0.3s ease;  
@@ -55,4 +58,24 @@
   text-align: center;
   color: #282828;
   text-align: center;
+}
+
+
+@media (max-width:600px) {
+    .categories .top h2{
+        font-size: 32px;
+    }
+    .categories .top .link{
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+    .categories .wrapper .box{
+        width: 45%;
+    }
+}
+@media (max-width:500px) {
+    .categories .wrapper .box{
+        width: 100%;
+    }
+    
 }

@@ -82,8 +82,7 @@
 .sale .wrapper .box .img .discount-badge {
   position: absolute;
   top: 16px;
-  right: 5px;
-  transform: translateX(-50%);
+  right: 10%;
   background-color: #4CAF50;
   color: white;
   padding: 6px 14px;

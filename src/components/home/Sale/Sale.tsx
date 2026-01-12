@@ -6,7 +6,7 @@ export default function Sale() {
     <div className="sale container">
       <div className="top">
         <h2>Sale</h2>
-        <Link className="link" href="/sale">
+        <Link className="link" href="/products">
           All sales
         </Link>
       </div>

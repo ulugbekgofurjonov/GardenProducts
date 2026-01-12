@@ -32,7 +32,6 @@ export default function Header() {
           <li><Link className="link" href="/" onClick={closeMenu}>Main Page</Link></li>
           <li><Link className="link" href="/categories" onClick={closeMenu}>Categories</Link></li>
           <li><Link className="link" href="/products" onClick={closeMenu}>All products</Link></li>
-          <li><Link className="link" href="/sales" onClick={closeMenu}>All sales</Link></li>
         </ul>
       </nav>
 
